@@ -10,8 +10,6 @@
 	font-style: normal;
 	font-weight: normal;
 }
-
-
 html{
 	text-align:center;
 	font-family: QuicksandBold;
@@ -35,19 +33,16 @@ body{
 	background-image: url('../img/background.jpg');
 	background-repeat:no-repeat;
 	background-position: top center;
-	
 }
 header,footer{
 	padding-left:65px;
 	padding-right:65px;
+	color:white;
 }
 section{
 	padding-right:99px;
 	padding-left:99px;
 
-}
-header,footer{
-	color:white;
 }
 header{
 	height:790px;
@@ -60,7 +55,6 @@ header h3{
 	font-stretch: condensed;
 	width:605px;
 	margin:0 auto;
-
 }
 menu{
 	float:right;
@@ -85,8 +79,6 @@ h1{
 h2{
 	text-transform: uppercase;
 }
-
-
 footer{
 	border-top:1px solid #424242;
 	background-color:#424242;
@@ -109,7 +101,6 @@ footer div:last-child{
 	float:right;
 	text-align:right;
 	font-size:18px;
-	
 }
 button{
 	background-color:#AA9B77;
@@ -135,7 +126,6 @@ button{
 	padding-right: 3px;
 }
 .footer_menu li:last-child{
-	
 	border-right: none;
 }
 .wrapper{
@@ -163,22 +153,17 @@ button{
 .invisible_checkbox{
 	visibility:hidden;
 }
-
 .invisible_checkbox:checked +label>.pseudocheckbox{
 	border-color:#AA9B77;
 	background-image:url("../img/checkbox.png");
 	background-position: center center;
 	background-repeat:no-repeat;
 }
-
 .choose{
 	background-color:#F5F6F7;
 	padding-top:46px;
-
 	height:143px;
-
 	text-align:left;
-
 }
 .choose span{
 	color:#333333;
@@ -204,7 +189,6 @@ button{
  .wares_line h2 span{
  	background-color:white;
  	padding-right:54px;
-
  }
  .wares_line:nth-child(even){
  	text-align:left;
@@ -237,7 +221,6 @@ button{
  	color:#CEBD93;
  }
 .frame{
-	
 	width:1096px;
 	overflow:hidden;
 	height:395px;
@@ -246,36 +229,29 @@ button{
 	margin-top:17px;
 }
 .wares_lent{
-	
 	max-height:377px;
 	z-index:1;
 	position:absolute;
 	top:0;
 	left:6px;
-	width:20000px;
-	
+	width:20000px;	
 }
-
 .wares_item{
 	background-color: #F5F6F7;
-	
 	float:left;
 	margin-right:65px;
 	margin-top:6px;
 	line-height:377px;
 	height:377px;
 	width:318px;
-	/*padding:18px 18px 24px 18px;*/
 	text-align:center;
 	position:relative;
 	-o-box-sizing:content-box;
 	-webkit-box-sizing:content-box;
 	-moz-box-sizing:padding-box;
-	box-sizing:padding-box;
-	
+	box-sizing:padding-box;	
 }
 .wares_item:hover{
-	
 	margin-top:0;
 	margin-right:59px;
 	margin-left:-6px;
@@ -284,9 +260,7 @@ button{
 	-moz-border-radius:4px;
 	-webkit-border-radius:4px;
 	border-radius:4px;
-
 }
-
 .wares_item h2{
 	font-size:18px;
 	color:#AA9B77;
@@ -297,9 +271,7 @@ button{
 	bottom:24px;
 }
 .wares_item img{
-	
 	vertical-align:middle;
-	/*margin-top:90px;*/
 	max-width: 197px;
 	max-height:232px;
 }
@@ -310,18 +282,14 @@ button{
 }
 .size{
 	font-size: 16px;
-	
 	top:18px;
 	left:18px;
-	
 	text-transform:uppercase;
 }
 .arrow_small{
 	line-height:1;
 }
-
 .baloons{
-	
 	top:18px;
 	right:18px;
 }
@@ -351,10 +319,7 @@ button{
 	font-size:22px;
 	bottom:24px;
 	right:18px;
-	
-
 }
-
 .ecommerce{
 	background-color:#535253;
 	color:white;
@@ -366,7 +331,6 @@ button{
 .ecommerce img{
 	margin-right:20px;
 	vertical-align:middle;
-
 }
 .about_us{
 	background-color:#AA9B77;
@@ -384,17 +348,14 @@ button{
 	padding-right:122px;
 	padding-left:122px;
 	padding-bottom:78px;
-
 }
 .about_us div h2{
 	font-size:20px;
 	color:#837659;
 	background-color:#AA9B77;
 	margin: -18px auto 83px auto;
-	
 	width:127px;
 }
-
 .clearfix::after{
 	content:".";
 	visibility:hidden;
