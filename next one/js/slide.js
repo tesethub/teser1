@@ -15,22 +15,27 @@
 		var margin=parseInt(item.css('margin-right').replace('px',""));
 		var offset=(itemWidth+margin)*itemsPerPage;
 		var stage=$(this).siblings('.indication').children('.stage');
-		var waresLent=$(this).siblings('.frame').children('.wares_lent')
+		var waresLent=$(this).siblings('.frame').children('.wares_lent');
+		var animProperties={"left":"+="+offset+'px'};
 		if ($(this).hasClass('prev')){
+			
 			if (parseInt(stage.html())>1){
-				waresLent.animate({"left":"+="+offset+'px'}, 'slow');
-				stage.html(parseInt(stage.html())-1);
+				makeShift(animProperties, -1);
 			}
 
 		}
 		else{
 
 			if (parseInt(stage.html())<parseInt($(this).siblings('.indication').children('.count').html())){
-				waresLent.animate({"left":"-="+offset+'px'}, 'slow');
-				stage.html(parseInt(stage.html())+1);
+				animProperties.left="-="+offset+'px';
+				makeShift(animProperties, 1);
 			}
 		}
-		
+	function makeShift(animProps, shift){
+		waresLent.animate(animProps, 'slow');
+		stage.html(parseInt(stage.html())+shift);
+
+		}
 	});
 
 });
