@@ -130,6 +130,7 @@ button{
 }
 .wrapper{
 	width:1284px;
+	margin:0 auto;
 }
 .shoe{
 	float:left;
@@ -139,6 +140,7 @@ button{
 	bottom: 46px;
 }
 .pseudocheckbox{
+	
 	height:24px;
 	width:24px;
 	border:2px solid #CCCCCC;
