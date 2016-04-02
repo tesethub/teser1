@@ -1,0 +1,373 @@
+*{
+	-moz-box-sizing:border-box;
+	-o-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	box-sizing:border-box;
+	background-repeat:no-repeat;
+}
+
+html {
+	-moz-box-sizing:border-box;
+	-o-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	box-sizing:border-box;
+	font-size:30px;
+	font-family: Arial;
+}
+a{
+	text-decoration: none;
+	color:inherit;
+}
+button{
+	border:none;
+	background-color:inherit;
+}
+ul{
+	margin:0;
+}
+header {
+	width:100%;
+	height:96px;
+	line-height:96px;
+	text-transform:uppercase;
+	color:white;
+	background-color:black;
+}
+header div {
+	float:left;
+	border-right: 3px solid #444444;
+}
+h1 {
+	height:202px;
+	margin:0;
+	padding:0;
+	line-height:202px;
+	text-align:center;
+	font-family: "Trebuchet MS";
+	font-weight:bold;
+	font-size:92px;
+}
+h2 {
+	margin:0;
+	text-transform:uppercase;
+	color:white;
+}
+nav {
+	height:96px;
+	margin:24px 15px;
+	padding: 0 30px;
+	line-height:96px;
+	text-align:left;
+	background-color: #FD926D;
+}
+nav label{
+	float:right;
+	margin-top:30px;
+	width: 33px;
+	height:33px;
+	
+}
+nav h2 {
+	float:left;
+	
+	width:50%;
+}
+section {
+	padding-bottom: 30px;
+}
+
+footer{
+	padding:30px;
+	text-align:right;
+	font-size:24px;
+	color:#8D8D8D;
+	background-color:black;
+}
+footer button {
+	display:block;
+	float:left;
+	height:30px;
+	width: 33px;
+	
+}
+input[type="email"] {
+	display:block;
+	float:left;
+	height:96px;
+	width:514px;
+	margin-left:15px;
+	margin-right:0;
+	padding:0 30px;
+	line-height:96px;
+	color: #9F9F9F;
+	font-style: italic;
+	background-color: #EDEDED;
+	border:none;
+}
+.emailform {
+	display:block;
+	height:96px;
+
+}
+.emailform input[type="submit"] {
+	display:block;
+	float:left;
+	height: 96px;
+	width: 96px;
+	margin:0;
+	background-image: url("../img/iphone/plus2.png");
+	background-position: 50% 50%;
+	
+
+}
+.container {
+	margin: 0 auto;
+	width:642px;
+	}
+.custom-care {
+	height: 96px;
+	line-height:96px;
+	text-transform: uppercase;
+	text-align:center;
+	color: #838383;
+}
+.section-hot {
+
+	background-color: #FD926D;
+}
+.section-hot h2 {
+	height:87px;
+	padding-left:30px;
+	padding-right:30px;
+	font-size:30px;
+	line-height:87px;
+	text-align:left;
+	background-color: #F4845D;
+	background-image: url("../img/iphone/arrow.png");
+	background-position: right 26px top 50%;
+	
+}
+.section-clearance {
+	
+	padding-bottom: 35px;
+}
+.section-clearance h2 {
+	margin-top:0;
+	margin-bottom:105px;
+	height:105px;
+	overflow:visible;
+	line-height:210px;
+	text-align:center;
+	border-bottom: 2px solid #D8D8D8;
+}
+.section-clearance img {
+	vertical-align:middle;
+}
+.clearfix::after {
+	content:'.';
+	color:white;
+	width:0;
+	height:0;
+	clear:both;
+}
+.currency-choose {
+	position:relative;
+	width:155px;
+	text-align:left;
+	padding-left:12px;
+	background-image: url("../img/iphone/arrow.png");
+	background-position: right 30px top 50%;
+	
+	
+}
+.currency-choose:hover .currency-list {
+	display:block;
+
+}
+.currency-list {
+
+	position:absolute;
+	left:0;
+	top:95px;
+	z-index:1;
+	display:none;
+	width:155px;
+	color: gray;
+	list-style:none;
+	background-color:white;
+	border: 1px solid gray;
+
+
+}
+.currency-list li[data-rate="1"] {
+	display:none;
+
+}
+.account {
+	width:382px;
+	padding-left:122px;
+	text-align:left;
+	background-image: url("../img/iphone/user.svg");
+	background-position: left 65px top 50%;
+	
+}
+.search {
+	width:97px;
+	border:none;
+	background-image: url("../img/iphone/search.png");
+	background-position: 50%  50%;
+	
+}
+.cart {
+	height:96px;
+	
+	margin:0 15px;
+	padding: 0 30px;
+	line-height:96px;
+	text-align:right;
+	color:#949393;
+	text-transform:uppercase;
+	border: 1px solid #D6D6D6;
+	background-color: #FAFAFA;
+	background-image: url("../img/iphone/purchase.png");
+	background-position: left 28px  top 50%;
+	
+}
+.cart .currency {
+	padding: 0 15px;
+	border-left: 3px solid #AFAEAE;
+}
+.hidden-menu {
+	display:none;
+}
+.find-us {
+	height:88px;
+	margin:25px 15px;
+	padding:0;
+	line-height:88px;
+	
+	text-align:center;
+
+}
+.find-us button {
+	display:block;
+	float:left;
+	width:88px;
+	height:88px;
+	margin:0;
+	background-color:#F7F7F7;	
+	background-position: 50% 50%;
+}
+.find-us button:hover{
+	background-color:#EDEDED;
+}
+.find-us h2 {
+	float:left;
+	width:274px;
+	text-transform:none;
+	font-weight: 100;
+	color:#6C6C6C;
+	font-size:26px;
+
+}
+.social-1 {
+	background-image:url("../img/iphone/social-1.png");
+}
+.social-2 {
+	background-image:url("../img/iphone/social-2.png");
+}
+.social-3 {
+	background-image:url("../img/iphone/social-3.png");
+}
+.orange-button {
+	font-family:;
+	font-size:20px;
+	text-transform: uppercase;
+	color:white;
+	background-color:#FD926D;
+	border:none;
+	border-bottom: 8px solid #DD6B44;
+}
+.remove-button{
+	display:none;
+	
+
+}
+.selected .remove-button{
+	display:inline;
+	
+}
+
+
+.load-more {
+	display:block;
+	margin:0 auto;
+	width:220px;
+	height:60px;
+	line-height:60px;
+	text-transform:uppercase;
+	font-size:20px;
+	color:white;
+	background-color:black;
+	border:none;
+}
+.wares-item {
+	float:left;
+	margin-top:33px;
+	margin-left:15px;
+	margin-right:15px;
+	margin-bottom:27px;
+	width: 274px;
+	height:524px;
+
+	text-align:center;
+	background-color:white;
+}
+.wares-item h3 {
+	padding:0;
+	margin-top:12px;
+	margin-bottom:5px;
+	line-height:1;
+	text-transform:uppercase;
+	color:#373737;
+	font-size:18px;
+	font-weight:100;
+
+	background-color: white;
+}
+.wares-item figure {
+	/*height: 363px;*/
+	margin:0;
+	padding:0;
+	height:362px;
+	width:244px;
+	overflow:hidden;
+
+	text-align:center;
+
+}
+.wares-item figure img {
+	vertical-align:middle;
+}
+.wares-item .price, .wares-item .currency{
+	font-size:28px;
+	
+}
+.wares-item .orange-button {
+
+	width:217px;
+	height: 66px;
+	margin-top: 14px;	
+	background-position: right 20px  top 50%;
+	
+}
+.wares-item .add-button {
+	background-image: url("../img/iphone/plus1.png");
+}
+.menu-button {
+	background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACEAAAAeBAMAAABQ5mokAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAAeUExURf///////////////////////////////////////xXYzFIAAAAJdFJOUwAGhIeKjeTn6tGJqEMAAAAuSURBVCjPYxDKnIkMkgQYLGeiAgOGTjSRBiwi6LocGEQrUQRKBRjoCUb9RbG/AEOjqQ82KmFfAAAAAElFTkSuQmCC');
+}
+.menu-switch:checked+.hidden-menu {
+	display:block;
+	float:right;
+}

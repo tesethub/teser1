@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+
+	<script src="js/jquery.js"></script>
+	<script src="js/jquery-cookie.js"></script>
+	<script src="js/script.js"></script>
+	<title>Document</title>
+</head>
+<body>
+	<div class="container">
+		<div class="custom-care">custom care: 123 456 789</div>
+		<header>
+			<div class="currency-choose" data-rate="1">
+				<span class="currency">$</span>
+				<span class="currency-abbr">US</span>
+				<ul class="currency-list">
+					<li data-rate="1">
+						<span class="currency">$</span><span class="currency-abbr">US</span>
+					</li>
+					<li data-rate="77.56">
+						<span class="currency"><del>Р</del></span><span class="currency-abbr">RU</span>
+					</li>
+				</ul>
+			</div>
+			<div class="account">My account</div>
+			<div class="search"> <button class="search-button"></button></div>
+
+		</header>
+		<h1>l<img src="img/iphone/glasses.png">kshop</h1>
+		<div class="cart">
+			<span class="count">0</span>
+			<span>Items</span>
+			<span class="currency">$</span>
+			<span class="price" data-price-default="0">0</span>
+		</div>
+		<nav >
+			<h2>Menu</h2> 
+			<input type="checkbox" class="menu-switch" id="up-menu-switch">
+			<ul class="hidden-menu clearfix">
+				<li><a href="">New</a></li>
+				<li><a href="">Designers</a></li>
+				<li><a href="">women</a></li>
+				<li><a href="">men</a></li>
+				<li><a href="">Clearence</a></li>
+			</ul>
+			<label class="menu-button" for="up-menu-switch"></label>
+		</nav>
+		<form  class="emailform clearfix"action="">
+			<input type="email" placeholder="your email adress">
+			<input type="submit" class="orange-button " value="">
+		</form>
+		<div class="find-us clearfix">
+			<h2>Find us here </h2>
+			<button class="social-1"><a href=""></a></button>
+			<button class="social-2"><a href=""></a></button>
+			<button class="social-3"><a href=""></a></button>
+		</div>
+		<section class="section-hot">
+			<h2>What's hot?</h2>
+			<div class="wares-item" data-item-id="1">
+				<figure><img src="img/iphone/girl-1.jpg" alt=""></figure>
+				<h3>MIMOSA LACE DRESS</h3>
+				<span class="currency">$</span><span class="price" data-price-default="76.95">76.95</span>
+				<button class="orange-button add-button">add to card</button>
+				<button class="orange-button remove-button">remove</button>
+			</div>
+			<div class="wares-item" data-item-id="2">
+				<figure><img src="img/iphone/girl-2.jpg" alt=""></figure>
+				<h3>MIMOSA LACE DRESS</h3>
+				<span class="currency">$</span><span class="price" data-price-default="96.55">96.55</span>
+				<button class="orange-button add-button">add to card</button>
+				<button class="orange-button remove-button">remove</button>
+			</div>
+			<button class="load-more">load more</button>
+		</section>
+		<section class="section-clearance">
+			<h2><img src="img/iphone/bliamba.png"></h2>
+
+			<div class="wares-item" data-item-id="3">
+				<figure><img src="img/iphone/bag-2.jpg" alt=""></figure>
+				<h3>WishVitalise Dress</h3>
+				<span class="currency">$</span><span class="price" data-price-default="49.95">49.95</span>
+				<button class="orange-button add-button">add to card</button>
+				<button class="orange-button remove-button">remove</button>
+			</div>
+			<div class="wares-item" data-item-id="4">
+				<figure><img src="img/iphone/bag-1.jpg" alt=""></figure>
+				<h3>Atmos&Here Shopper</h3>
+				<span class="currency">$</span><span class="price" data-price-default="15.25">15.25</span>
+				<button class="orange-button add-button">add to card</button>
+				<button class="orange-button remove-button">remove</button>
+			</div>
+			<button class="load-more">load more</button>
+		</section>
+
+		<footer>
+			<button class="menu-button"></button>
+			© LookShop.com <br>
+            All Rights Reserved
+		</footer>
+	</div>
+</body>
+</html>
