@@ -53,6 +53,7 @@ h2 {
 	color:white;
 }
 nav {
+	position:relative;
 	height:96px;
 	margin:24px 15px;
 	padding: 0 30px;
@@ -60,7 +61,7 @@ nav {
 	text-align:left;
 	background-color: #FD926D;
 }
-nav label{
+nav button{
 	float:right;
 	margin-top:30px;
 	width: 33px;
@@ -68,9 +69,14 @@ nav label{
 	
 }
 nav h2 {
+
 	float:left;
 	
 	width:50%;
+}
+nav .hidden-menu li{
+	display:block;
+	text-transform:lowercase;
 }
 section {
 	padding-bottom: 30px;
@@ -132,6 +138,7 @@ input[type="email"] {
 	color: #838383;
 }
 .section-hot {
+	
 
 	background-color: #FD926D;
 }
@@ -220,7 +227,6 @@ input[type="email"] {
 }
 .cart {
 	height:96px;
-	
 	margin:0 15px;
 	padding: 0 30px;
 	line-height:96px;
@@ -239,6 +245,7 @@ input[type="email"] {
 }
 .hidden-menu {
 	display:none;
+
 }
 .find-us {
 	height:88px;
@@ -295,6 +302,10 @@ input[type="email"] {
 }
 .selected .remove-button{
 	display:inline;
+	
+}
+.selected .add-button{
+	display:none;
 	
 }
 
@@ -367,7 +378,27 @@ input[type="email"] {
 .menu-button {
 	background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACEAAAAeBAMAAABQ5mokAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAAeUExURf///////////////////////////////////////xXYzFIAAAAJdFJOUwAGhIeKjeTn6tGJqEMAAAAuSURBVCjPYxDKnIkMkgQYLGeiAgOGTjSRBiwi6LocGEQrUQRKBRjoCUb9RbG/AEOjqQ82KmFfAAAAAElFTkSuQmCC');
 }
-.menu-switch:checked+.hidden-menu {
+.menu-button:hover + .hidden-menu , .hidden-menu:hover{
+	position:absolute;
+	top:0;
+	right:0;
 	display:block;
-	float:right;
+	background-color: white;
+	
 }
+/*@media screen and (min-width:766px){
+	header {
+		height:31px;
+		line-height:31px;
+		font-size: 11px;
+	}
+	.container {
+		width: 762px;
+	}
+	.load-more {
+		display:none;
+	}
+
+
+
+}*/

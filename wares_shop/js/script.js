@@ -1,9 +1,7 @@
 $('document').ready(function(){
 	var cartList=$.cookie('cartList');
 	if(cartList){
-		cartList=cartList.split(',');
-		
-
+		cartList=cartList.split(',');	
 	}
 	else{
 		cartList=[]
@@ -14,10 +12,6 @@ $('document').ready(function(){
 	$('.add-button').click(function(){
 		
 		var item=$(this).parent('.wares-item');
-		
-		
-		
-		
 		cartList.push(item.data('item-id'));
 		handleCart(cartList);
 
